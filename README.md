@@ -31,9 +31,9 @@ pscale database create <DATABASE_NAME>
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-npx create-next-app --example with-mysql nextjs-mysql
+npx create-next-app --ts --example with-mysql nextjs-mysql
 # or
-yarn create next-app --example with-mysql nextjs-mysql
+yarn create next-app --ts --example with-mysql nextjs-mysql
 ```
 
 Next, you'll need to create a database username and password through the CLI to connect to your application. If you'd prefer to use the dashboard for this step, you can find those instructions in the [Connection Strings documentation](https://docs.planetscale.com/concepts/connection-strings#creating-a-password) and then come back here to finish setup.
